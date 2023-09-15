@@ -26,6 +26,7 @@
     flex-flow: column;
     gap: 20px;
     border-radius: 20px;
+    transition: transform 0.5s
   }
   .card .imagem {
     background-color: hsl(178, 100%, 50%);
