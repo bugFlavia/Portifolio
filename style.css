@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    max-width: 340px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    border-radius: 20px;
+  }
+  .card .imagem {
+    background-color: hsl(178, 100%, 50%);
+    line-height: 0;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+  }
+  .card .imagem:hover {
+    opacity: 50%;
+  }
+  .card .imagem:hover {
+    border-radius: 10px;
+  }
+
+  .card h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  .card h1:hover {
+    color: hsl(178, 100%, 50%);
+  }
+  .card h2 {
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+  }
+  .corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .corpo .esquerda {
+    display: flex;
+    gap: 8px;
+    flex-flow: row nowrap;
+  }
+  .corpo .esquerda p {
+    font-size: 0.9rem;
+    color: hsl(178, 100%, 50%);
+  }
+  .corpo .esquerda p:hover {
+    color: white;
+  }
+  .autora {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    height: 60px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .autora img {
+    width: 35px;
+    height: 35px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+  }
+  .autora p {
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+  }
+  .autora p span {
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  .autora p span:hover {
+    color: hsl(178, 100%, 50%);
+  }
