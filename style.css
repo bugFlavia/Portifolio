@@ -114,8 +114,9 @@ main {
 }
 
 .cardList {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Exibe 3 por linha */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px;
   padding: 20px;
 }
