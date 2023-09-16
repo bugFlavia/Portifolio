@@ -1,100 +1,121 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 1.125rem;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  main {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFB2C1;
-    font-family: "Outfit", sans-serif;
-  }
-  
-  .card {
-    background-color: #EEDAE5;
-    padding: 25px;
-    max-width: 340px;
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
-    border-radius: 20px;
-    transition: transform 0.2s
-  }
-  .card .imagem {
-    background-color: hsl(178, 100%, 50%);
-    line-height: 0;
-    border-radius: 12px;
-    position: relative;
-    cursor: pointer;
-  }
-  .card .imagem:hover {
-    opacity: 50%;
-  }
-  .card .imagem:hover {
-    border-radius: 10px;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.125rem;
+}
 
-  .card h1 {
-    color: #FFB2C1;
-    font-size: 1.4rem;
-    cursor: pointer;
-  }
-  .card h1:hover {
-    color: #000000;
-  }
-  .card h2 {
-    font-size: 1rem;
-    line-height: 150%;
-    font-weight: 300;
-  }
-  .corpo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .corpo .esquerda {
-    display: flex;
-    gap: 8px;
-    flex-flow: row nowrap;
-  }
-  .corpo .esquerda p {
-    font-size: 0.9rem;
-    color: #FFB2C1;
-  }
-  .corpo .esquerda p:hover {
-    text-decoration: bold;
-  }
-  .autora {
-    border-top: 1px solid #000000;
-    height: 60px;
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  .autora img {
-    width: 35px;
-    height: 35px;
-    border: 2px solid hsl(0, 0%, 100%);
-    border-radius: 100%;
-  }
-  .autora p {
-    font-size: 1rem;
-    color: #FFB2C1;
-  }
-  .autora p span {
-    font-size: 1rem;
-    color: #000000;
-    cursor: pointer;
-  }
-  .autora p span:hover {
-    color: #FFB2C1;
-  }
+img {
+  max-width: 100%;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFB2C1;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: #EEDAE5;
+  padding: 25px;
+  max-width: 340px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.card .imagem {
+  background-color: #EEDAE5;
+  line-height: 0;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card .imagem:hover {
+  opacity: 50%;
+}
+
+.card .imagem:hover {
+  border-radius: 10px;
+}
+
+.card h1 {
+  color: #FFB2C1;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.card h1:hover {
+  color: #000000;
+}
+
+.card h2 {
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.corpo .esquerda {
+  display: flex;
+  gap: 8px;
+  flex-flow: row nowrap;
+}
+
+.corpo .esquerda p {
+  font-size: 0.9rem;
+  color: #FFB2C1;
+}
+
+.corpo .esquerda p:hover {
+  text-decoration: bold;
+}
+
+.autora {
+  border-top: 1px solid #000000;
+  height: 60px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.autora img {
+  width: 35px;
+  height: 35px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+}
+
+.autora p {
+  font-size: 1rem;
+  color: #FFB2C1;
+}
+
+.autora p span {
+  font-size: 1rem;
+  color: #000000;
+  cursor: pointer;
+}
+
+.autora p span:hover {
+  color: #FFB2C1;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
