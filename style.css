@@ -111,5 +111,4 @@ main {
 .cardList {
   display: grid;
   grid-template-columns: auto;
-  grid-row: auto;
 }
