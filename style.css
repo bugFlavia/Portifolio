@@ -26,6 +26,7 @@
     flex-flow: column;
     gap: 20px;
     border-radius: 20px;
+    box-shadow: 0 5px 70px -12px rgb(0 0 0 / 0.25);
     transition: transform 0.2s
   }
   .card .imagem {
