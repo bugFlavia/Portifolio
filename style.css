@@ -12,7 +12,7 @@ body{
 header{
   background-image: url('./img/logo.jpg');
   background-repeat: no-repeat;
-  background-size: 6%;
+  background-size: 50;
   margin-bottom: 50px;
   background-color: #EEDAE5;
   background-position: 3% 35%;
