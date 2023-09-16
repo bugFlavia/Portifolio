@@ -48,7 +48,7 @@
     cursor: pointer;
   }
   .card h1:hover {
-    color: hsl(178, 100%, 50%);
+    color: #000000;
   }
   .card h2 {
     font-size: 1rem;
