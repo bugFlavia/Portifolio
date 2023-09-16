@@ -3,7 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 1.125rem;
-  background-color: #FFB2C1;
+}
+
+body{
+    background-color: #FFB2C1;
 }
 
 img {
