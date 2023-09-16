@@ -30,7 +30,7 @@ nav input{
 
 nav ul{
        padding: 15px 10px 15px 10px;
-       display: inline;
+       display: flex;
        list-style-type: none;
 }
 
