@@ -24,7 +24,7 @@ nav{
 }
 
 nav ul{
-       padding-left: 250px;
+       padding-left: 50px;
        padding-top: 50px;
        list-style-type: none;
        display: flex;
@@ -37,6 +37,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: #FFB2C1;
+  font-weight: bold;
   font-size: 24px;
 }
 
