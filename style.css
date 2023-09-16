@@ -17,7 +17,29 @@ header{
   height: 150px;
 }
 
+nav{
+  display: inline;
+}
 
+nav ul{
+       padding: 15px 10px 15px 10px;
+       list-style-type: none;
+}
+
+nav ul li{
+          width: 50px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #FFB2C1;
+  font-size: 18px;
+}
+
+nav ul li a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
 
 img {
   max-width: 100%;
