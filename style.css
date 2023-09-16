@@ -12,8 +12,9 @@ body{
 header{
   background-image: url('./img/logo.jpg');
   background-repeat: no-repeat;
-  background-size: 9%;
+  background-size: 5%;
   background-color: #EEDAE5;
+  background-position: 3% 35%;
   height: 150px;
 }
 
