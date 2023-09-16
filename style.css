@@ -51,77 +51,64 @@ main {
   border-radius: 10px;
 }
 
-.card h1 {
-  color: #FFB2C1;
-  font-size: 1.4rem;
-  cursor: pointer;
-}
-
-.card h1:hover {
-  color: #000000;
-}
-
-.card h2 {
-  font-size: 1rem;
-  line-height: 150%;
-  font-weight: 300;
-}
-
-.corpo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.corpo .esquerda {
-  display: flex;
-  gap: 8px;
-  flex-flow: row nowrap;
-}
-
-.corpo .esquerda p {
-  font-size: 0.9rem;
-  color: #FFB2C1;
-}
-
-.corpo .esquerda p:hover {
-  text-decoration: bold;
-}
-
-.autora {
-  border-top: 1px solid #000000;
-  height: 60px;
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.autora img {
-  width: 35px;
-  height: 35px;
-  border: 2px solid hsl(0, 0%, 100%);
-  border-radius: 100%;
-}
-
-.autora p {
-  font-size: 1rem;
-  color: #FFB2C1;
-}
-
-.autora p span {
-  font-size: 1rem;
-  color: #000000;
-  cursor: pointer;
-}
-
-.autora p span:hover {
-  color: #FFB2C1;
-}
+  .card h1 {
+    color: #FFB2C1;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  .card h1:hover {
+    color: #000000;
+  }
+  .card h2 {
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 300;
+  }
+  .corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .corpo .esquerda {
+    display: flex;
+    gap: 8px;
+    flex-flow: row nowrap;
+  }
+  .corpo .esquerda p {
+    font-size: 0.9rem;
+    color: #FFB2C1;
+  }
+  .corpo .esquerda p:hover {
+    text-decoration: bold;
+  }
+  .autora {
+    border-top: 1px solid #000000;
+    height: 60px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .autora img {
+    width: 35px;
+    height: 35px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+  }
+  .autora p {
+    font-size: 1rem;
+    color: #FFB2C1;
+  }
+  .autora p span {
+    font-size: 1rem;
+    color: #000000;
+    cursor: pointer;
+  }
+  .autora p span:hover {
+    color: #FFB2C1;
+  }
 
 .cardList {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;;;
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
