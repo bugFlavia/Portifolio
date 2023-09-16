@@ -9,6 +9,16 @@ body{
     background-color: #FFB2C1;
 }
 
+header{
+  background-color: url('./img/logo.jpg');
+  background-repeat: no-repeat;
+  background-size: 9%;
+  background-color: #FFD7D3;
+  height: 150px;
+}
+
+
+
 img {
   max-width: 100%;
 }
