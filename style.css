@@ -24,7 +24,7 @@ main {
   padding: 25px;
   max-width: 340px;
   display: flex;
-  align-self: center;
+  justify-content: center;
   flex-flow: column;
   gap: 20px;
   border-radius: 20px;
