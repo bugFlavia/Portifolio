@@ -1,46 +1,51 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 1.125rem;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  main {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFB2C1;
-    font-family: "Outfit", sans-serif;
-  }
-  
-  .card {
-    background-color: #EEDAE5;
-    padding: 25px;
-    max-width: 340px;
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
-    border-radius: 20px;
-    transition: transform 0.2s
-  }
-  .card .imagem {
-    background-color: #EEDAE5;
-    line-height: 0;
-    border-radius: 12px;
-    position: relative;
-    cursor: pointer;
-  }
-  .card .imagem:hover {
-    opacity: 50%;
-  }
-  .card .imagem:hover {
-    border-radius: 10px;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.125rem;
+  background-color: #FFB2C1;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFB2C1;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: #EEDAE5;
+  padding: 25px;
+  max-width: 340px;
+  display: flex;
+  align-self: center;
+  flex-flow: column;
+  gap: 20px;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.card .imagem {
+  background-color: #EEDAE5;
+  line-height: 0;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card .imagem:hover {
+  opacity: 50%;
+}
+
+.card .imagem:hover {
+  border-radius: 10px;
+}
 
   .card h1 {
     color: #FFB2C1;
@@ -99,10 +104,10 @@
     color: #FFB2C1;
   }
 
-  .cardList {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between; 
-    gap: 20px;
-    padding: 20px;
-  }
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
