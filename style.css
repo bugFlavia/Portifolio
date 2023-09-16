@@ -35,13 +35,14 @@ nav input{
 }
 
 nav ul{
-       padding: 15px 10px 15px 10px;
+       padding-left: 250px;
+       padding-top: 50px;
        list-style-type: none;
        display: flex;
 }
 
 nav ul li{
-          width: 50px;
+       padding:5px 55px 15px 0px;
 }
 
 nav ul li a{
