@@ -27,6 +27,7 @@ main {
   padding: 25px;
   max-width: 340px;
   display: flex;
+  align-content: center;
   justify-content: center;
   flex-flow: column;
   gap: 20px;
