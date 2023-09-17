@@ -8,3 +8,10 @@
 
 <img src="./img/readme.png"/>
 
+
+<ul><h5>⚙️Tecnologias</h5>
+<li>Java Script Vanilla</li>
+<li>CSS responsivo</li>
+<li>HTML 5</li>
+</ul>
+
