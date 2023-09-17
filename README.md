@@ -4,7 +4,7 @@
 <h5 align="justify">Site desenvolvido baseado no desafio "Card NFT" - Frontend Mentor challenge, proposto pelo professor <a href="https://github.com/fabioivi/STAEM/commits?author=fabioivi">Fábio Duarte</a>
 
 
-<p align="center"><a href="https://portifolio-psi-liart.vercel.app/"> Link de demonstração </a><a href="https://github.com/bugFlavia/Portifolio/issues"> - Reporte problemas </a><a href="https://github.com/bugFlavia/Portifolio/pulls"> - Sugestões </a>
+<h3 align="center"><a href="https://portifolio-psi-liart.vercel.app/"> Link de demonstração </a><a href="https://github.com/bugFlavia/Portifolio/issues"> - Reporte problemas </a><a href="https://github.com/bugFlavia/Portifolio/pulls"> - Sugestões </h3>
 
 <img src="./img/readme.png"/>
 
