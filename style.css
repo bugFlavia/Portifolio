@@ -30,7 +30,7 @@
     transition: transform 0.2s
   }
   .card .imagem {
-    background-color: hsl(178, 100%, 50%);
+    background-color: #EEDAE5;
     line-height: 0;
     border-radius: 12px;
     position: relative;
